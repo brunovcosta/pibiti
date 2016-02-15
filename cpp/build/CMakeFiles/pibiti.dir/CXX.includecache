@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bruno/Dropbox/projetos/ime/pibiti/cpp/main.cpp
+iostream
+-
+string
+-
+map
+-
+algorithm
+-
+vector
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/shape/shape.hpp
+-
+opencv2/ml/ml.hpp
+-
+
